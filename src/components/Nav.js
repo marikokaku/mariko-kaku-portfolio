@@ -1,21 +1,10 @@
 import React from "react";
+import { Link } from "react-router-dom";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Nav({ currentPage, handlePageChange }) {
   return (
-   
     <ul className='nav'>
-      
-      <li className="nav-item">
-        <a
-          href="#about"
-          onClick={() => handlePageChange('About')}
-          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
-          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
-          style={{ textDecoration: 'none' }}
-        >
-          mariko kaku
-        </a>
-      </li>
       <li className="nav-item">
         <a
           href="#portfolio"
@@ -47,6 +36,36 @@ function Nav({ currentPage, handlePageChange }) {
           style={{ textDecoration: 'none' }}
         >
           contact
+        </a>
+      </li>
+
+      <li className="nav-item">
+        <a
+          href="#about"
+          onClick={() => handlePageChange('About')}
+          // Check to see if the currentPage is `About`, and if so we use the active link class from bootstrap. Otherwise, we set it to a normal nav-link
+          className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+          style={{ textDecoration: 'none' }}
+        >
+          mk
+        </a>
+      </li>
+      <li className="nav-item">
+        <a
+          className="btn"
+          href="https://github.com/marikokaku"
+        >
+          <FaGithub />
+        </a>
+
+      </li>
+      <li className="nav-item">
+        <a
+          className="btn"
+          href="www.linkedin.com/in/marikokaku"
+          target="_blank"
+          rel="noopener noreferrer">
+          <FaLinkedin />
         </a>
       </li>
     </ul>

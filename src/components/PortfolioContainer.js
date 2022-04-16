@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 
 import Nav from "./Nav";
-import Footer from "./Footer";
+// import Footer from "./Footer";
 
 import About from "../pages/About";
 import Portfolio from "../pages/Portfolio";
@@ -40,9 +40,9 @@ export default function PortfolioContainer () {
             <div>
                 {renderPage()}
             </div>
-            <div>
+            {/* <div>
                 <Footer></Footer>
-            </div>
+            </div> */}
         </div>
     );
 };

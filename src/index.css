@@ -1,10 +1,17 @@
 * {
+  box-sizing: border-box;
   color: #fff;
   background-color: #ada9a2;
+  cursor: default;
 }
+
+.nav-list {
+  color: #fff;
+}
+
 img {
   max-width: 15%;
-  border-radius: 50%;
+  background-color: var(--secondary);
 }
 
 main {
@@ -156,17 +163,7 @@ li {
 
 }
 
-.nav-item {
-  color: #ddb7a0;
 
-}
-nav a:hover {
-  text-decoration: underline;
-}
-
-nav li {
-  cursor: pointer;
-}
 
 textarea {
   width: 600px;
@@ -299,6 +296,3 @@ a {
   margin-right: -2px;
 }
 
-.navActive {
-  color: var(--secondary);
-} 
