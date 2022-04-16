@@ -17,7 +17,7 @@ function Portfolio() {
                         <div className="card-body">
 
                             <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
-                                <button>GitHub</button>
+                
                             </a>
                         </div>
                     </div>
