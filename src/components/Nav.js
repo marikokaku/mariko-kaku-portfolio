@@ -1,5 +1,4 @@
 import React from "react";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 function Nav({ currentPage, handlePageChange }) {
   return (
@@ -14,9 +13,12 @@ function Nav({ currentPage, handlePageChange }) {
               className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
               style={{ textDecoration: 'none' }}
             >
-              about 
+              mariko kaku 
             </a>
           </li>
+        </ul>
+
+        <ul className="nav navbar-right">
           <li>
             <a
               href="#portfolio"
@@ -48,29 +50,6 @@ function Nav({ currentPage, handlePageChange }) {
               style={{ textDecoration: 'none' }}
             >
               contact
-            </a>
-          </li>
-        </ul>
-
-
-        <ul className="nav navbar-right">
-          <li className="nav-item">
-            <a
-              className="btn shadow-none"
-              href="https://github.com/marikokaku"
-              target='_blank'
-            >
-              <FaGithub />
-            </a>
-
-          </li>
-          <li className="nav-item">
-            <a
-              className="btn shadow-none"
-              href="https://www.linkedin.com//in/marikokaku"
-              target='_blank'
-            >
-              <FaLinkedin />
             </a>
           </li>
         </ul>
