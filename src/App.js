@@ -1,23 +1,46 @@
-// import React from 'react';
-// import About from './components/About';
+import React, { useState } from "react";
 
-// function App() {
-//   return (
-//     <div>
-//       <main>
-//         <About></About>
-//       </main>
-//     </div>
-//   );
-// }
+import Nav from "./components/Nav";
+import Footer from "./components/Footer";
 
+import About from "./pages/About";
+import Portfolio from "./pages/Portfolio";
+import Contact from "./pages/Contact";
+import Resume from "./pages/Resume";
 
-// export default App;
+export default function PortfolioContainer () {
+    const [currentPage, setCurrentPage] = useState('About');
 
-import React from 'react';
+    // This method is checking to see what the value of `currentPage` is. Depending on the value of currentPage, we return the corresponding component to render.
+    const renderPage = () => {
 
-import PortfolioContainer from './components/PortfolioContainer';
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Portfolio') {
+            return <Portfolio />;
+        }
+        if (currentPage === 'Resume') {
+            return <Resume />;
+        }
+        if (currentPage === 'Contact') {
+            return <Contact />;
+        }
+    };
 
-const App = () => <PortfolioContainer />;
+    const handlePageChange = (page) => setCurrentPage(page);
 
-export default App;
+    return (
+        <div>
+            <div>
+                {/* We are passing the currentPage from state and the function to update it */}
+                <Nav currentPage={currentPage} handlePageChange={handlePageChange} />
+            </div>
+            {/* Here we are calling the renderPage method which will return a component  */}
+            <div>
+                {renderPage()}
+            </div>
+                <Footer></Footer>
+        </div>
+    );
+};
