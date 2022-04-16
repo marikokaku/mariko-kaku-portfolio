@@ -4,13 +4,13 @@
   background-color: #ada9a2;
 }
 
-.nav-list {
+.nav-color {
   color: #fff;
 }
 
 img {
   max-width: 15%;
-  background-color: var(--secondary);
+  background-color: var(--light);
 }
 
 main {
