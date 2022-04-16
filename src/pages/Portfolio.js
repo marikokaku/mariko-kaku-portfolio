@@ -4,26 +4,66 @@ import Horiseon from "../assets/project/horiseon.png";
 function Portfolio() {
     return (
 
-        <section className="portfolio">
 
-            <div className="row row-cols-1 row-cols-sm-2 row-cols-md-2 row-cols-lg-3 g-4">
-                <div className="col">
-                    <div className="card">
+        <div className='container'>
+            <div className="row">
+                <div className="col-sm">
+                    <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
                         <img
                             src={Horiseon}
                             alt="horiseon"
-                            className="card-img-top"
+                            className="img-fluid"
                         />
-                        <div className="card-body">
-
-                            <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
-                
-                            </a>
-                        </div>
-                    </div>
+                    </a>
+                </div>
+                <div className="col-sm">
+                    <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
+                        <img
+                            src={Horiseon}
+                            alt="horiseon"
+                            className="img-fluid"
+                        />
+                    </a>
+                </div>
+                <div className="col-sm">
+                    <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
+                        <img
+                            src={Horiseon}
+                            alt="horiseon"
+                            className="img-fluid"
+                        />
+                    </a>
+                </div>
+                <div className="col-sm">
+                    <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
+                        <img
+                            src={Horiseon}
+                            alt="horiseon"
+                            className="img-fluid"
+                        />
+                    </a>
+                </div>
+                <div className="col-sm">
+                    <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
+                        <img
+                            src={Horiseon}
+                            alt="horiseon"
+                            className="img-fluid"
+                        />
+                    </a>
+                </div>
+                <div className="col-sm">
+                    <a href="https://github.com/marikokaku/refractor-web-app" target="_blank" rel="noreferrer">
+                        <img
+                            src={Horiseon}
+                            alt="horiseon"
+                            className="img-fluid"
+                        />
+                    </a>
                 </div>
             </div>
-        </section>
+        </div>
+
     );
 }
 
