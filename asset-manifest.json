@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/mariko-kaku-portfolio/static/css/main.69f5e01f.css",
+    "main.js": "/mariko-kaku-portfolio/static/js/main.886f7afd.js",
+    "static/js/787.c5eccab9.chunk.js": "/mariko-kaku-portfolio/static/js/787.c5eccab9.chunk.js",
+    "static/media/avatar.transparent.png": "/mariko-kaku-portfolio/static/media/avatar.transparent.00d4c1e4386703148afd.png",
+    "static/media/horiseon.png": "/mariko-kaku-portfolio/static/media/horiseon.2900eea49e7f39b6e5a6.png",
+    "static/media/runbuddy.png": "/mariko-kaku-portfolio/static/media/runbuddy.1316aca09e1fe5b7172d.png",
+    "static/media/datenight.png": "/mariko-kaku-portfolio/static/media/datenight.d60fa1051135034a1800.png",
+    "static/media/onlypets.png": "/mariko-kaku-portfolio/static/media/onlypets.1b75f3a190dd8a3a1797.png",
+    "static/media/workday.png": "/mariko-kaku-portfolio/static/media/workday.8b13d536847c5e2ebb9a.png",
+    "static/media/readme.png": "/mariko-kaku-portfolio/static/media/readme.17c7929acb030009eed8.png",
+    "static/media/cms.png": "/mariko-kaku-portfolio/static/media/cms.2854ae9c9f38d166ef1e.png",
+    "static/media/ikoandco.png": "/mariko-kaku-portfolio/static/media/ikoandco.8a3989eabea4b5a03eaf.png",
+    "static/media/robotglad.png": "/mariko-kaku-portfolio/static/media/robotglad.77086d207958181fd994.png",
+    "static/media/techtown.png": "/mariko-kaku-portfolio/static/media/techtown.e0e3fd6f09ded142a8e2.png",
+    "static/media/budget.png": "/mariko-kaku-portfolio/static/media/budget.96b4fbb299a8209f1ef5.png",
+    "static/media/teambuilder.png": "/mariko-kaku-portfolio/static/media/teambuilder.f9c4f03bef97a0c4d2d4.png",
+    "index.html": "/mariko-kaku-portfolio/index.html",
+    "main.69f5e01f.css.map": "/mariko-kaku-portfolio/static/css/main.69f5e01f.css.map",
+    "main.886f7afd.js.map": "/mariko-kaku-portfolio/static/js/main.886f7afd.js.map",
+    "787.c5eccab9.chunk.js.map": "/mariko-kaku-portfolio/static/js/787.c5eccab9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69f5e01f.css",
+    "static/js/main.886f7afd.js"
+  ]
+}
