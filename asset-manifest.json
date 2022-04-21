@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/mariko-kaku-portfolio/static/css/main.69f5e01f.css",
-    "main.js": "/mariko-kaku-portfolio/static/js/main.886f7afd.js",
+    "main.js": "/mariko-kaku-portfolio/static/js/main.f38bb6d0.js",
     "static/js/787.c5eccab9.chunk.js": "/mariko-kaku-portfolio/static/js/787.c5eccab9.chunk.js",
     "static/media/avatar.transparent.png": "/mariko-kaku-portfolio/static/media/avatar.transparent.00d4c1e4386703148afd.png",
     "static/media/horiseon.png": "/mariko-kaku-portfolio/static/media/horiseon.2900eea49e7f39b6e5a6.png",
@@ -18,11 +18,11 @@
     "static/media/teambuilder.png": "/mariko-kaku-portfolio/static/media/teambuilder.f9c4f03bef97a0c4d2d4.png",
     "index.html": "/mariko-kaku-portfolio/index.html",
     "main.69f5e01f.css.map": "/mariko-kaku-portfolio/static/css/main.69f5e01f.css.map",
-    "main.886f7afd.js.map": "/mariko-kaku-portfolio/static/js/main.886f7afd.js.map",
+    "main.f38bb6d0.js.map": "/mariko-kaku-portfolio/static/js/main.f38bb6d0.js.map",
     "787.c5eccab9.chunk.js.map": "/mariko-kaku-portfolio/static/js/787.c5eccab9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.69f5e01f.css",
-    "static/js/main.886f7afd.js"
+    "static/js/main.f38bb6d0.js"
   ]
 }
