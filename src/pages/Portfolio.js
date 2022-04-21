@@ -28,10 +28,10 @@ function Portfolio() {
                                     alt="horiseon"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>HTML/CSS</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>HTML/CSS</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -42,10 +42,10 @@ function Portfolio() {
                                     alt="workday"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>Third Party APIs</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>Third Party APIs</h2>
-                            </div>
                         </div>
                     </div>
 
@@ -57,10 +57,10 @@ function Portfolio() {
                                     alt="runbuddy"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>HTML/CSS</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>HTML/CSS</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -71,10 +71,10 @@ function Portfolio() {
                                     alt="robotglad"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>JavaScript</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>JavaScript</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -85,10 +85,10 @@ function Portfolio() {
                                     alt="ikoandco"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>ORM</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>ORM</h2>
-                            </div>
                         </div>
                     </div>
 
@@ -100,10 +100,10 @@ function Portfolio() {
                                     alt="readme"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>Node.js</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>Node.js</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -114,10 +114,10 @@ function Portfolio() {
                                     alt="techtown"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>MVC</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>MVC</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -128,10 +128,10 @@ function Portfolio() {
                                     alt="onlypets"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>MERN</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>MERN</h2>
-                            </div>
                         </div>
                     </div>
 
@@ -143,10 +143,10 @@ function Portfolio() {
                                     alt="teambuilder"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>OOP</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>OOP</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -157,10 +157,10 @@ function Portfolio() {
                                     alt="budget"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>PWA</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>PWA</h2>
-                            </div>
                         </div>
                     </div>
                     <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
@@ -171,16 +171,29 @@ function Portfolio() {
                                     alt="cms"
                                     className="img-fluid"
                                 />
+                                <div class="overlay">
+                                    <h2>SQL</h2>
+                                </div>
                             </a>
-                            <div class="overlay">
-                                <h2>SQL</h2>
-                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
+                        <div class="hovereffect">
+                            <a href="https://github.com/horsfalm/week7-group-project" target="_blank" rel="noreferrer">
+                                <img
+                                    src={datenight}
+                                    alt="datenight"
+                                    className="img-fluid"
+                                />
+                                <div class="overlay">
+                                    <h2>APIs</h2>
+                                </div>
+                            </a>
                         </div>
                     </div>
                 </div>
-
             </div>
-        </section>
+        </section >
     )
 }
 
