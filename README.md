@@ -11,6 +11,7 @@
 ## Table of Contents
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Links](#links)
 - [License](#license)
 - [Questions](#questions)
 
@@ -21,6 +22,10 @@
 ## Installation 
 
 `npm i`
+
+## Links:
+
+[Deployed](https://marikokaku.github.io/mariko-kaku-portfolio/)
 
 ## License:
 
